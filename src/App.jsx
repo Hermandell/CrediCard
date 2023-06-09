@@ -24,15 +24,19 @@ const PaymentForm = () => {
 
   return (
     <div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Cards
-        number={state.number}
+        number={4130980110693817}
         expiry={"💹  💹"}
         cvc={state.cvc}
         name={"Pedro Eleazar Uribe Salazar"}
         focused={state.focus}
       />
       <br/>
-      <form>
+      {/* <form>
         <input
           type="number"
           name="number"
@@ -42,7 +46,7 @@ const PaymentForm = () => {
           onFocus={handleInputFocus}
         />
         
-      </form>
+      </form> */}
     </div>
   );
 }
